@@ -2,23 +2,11 @@
 <head>
 	<title>layeredCanvas Example</title>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-
-
-	<style>
-		body {
-			background: white;
-		}
-		.column {
-			width: 50%;
-			float:left;
-		}
-		.clear { clear:both; }
-	</style>
+	<link rel="stylesheet" type="text/css" href="./style.css">
 
 </head>
-<body>
-	<div>
-		<div class="column">
+	<body>
+		<div>
 			<canvas id="theCanvas" width="512" height="512"></canvas>
 			<div>
 				<label><input type="checkbox" id="squares" checked >Squares</label>
@@ -26,10 +14,11 @@
 				<label><input type="checkbox" id="triangles" checked >Triangles</label>
 			</div>
 		</div>
-		<div class="clear"></div>
-	</div>
-	<script src="layeredCanvas.js"></script>
-	<script src="example.js"></script>
-	<script src="interface.js"></script>
-</body>
+
+		<!-- Scripts -->
+		<script src="layeredCanvas.js"></script>
+		<script src="example.js"></script>
+		<script src="interface.js"></script>
+
+	</body>
 </html>

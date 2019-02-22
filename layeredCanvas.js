@@ -66,5 +66,3 @@
 		this.canvas = document.getElementById( id );
 		this.ctx2d = this.canvas.getContext( '2d' );
 	};
-
-module.exports.layeredCanvas = layerdCanvas
