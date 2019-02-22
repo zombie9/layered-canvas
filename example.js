@@ -1,6 +1,4 @@
-window.onload = function () {
-
-  var myCanvas = new LayeredCanvas( "theCanvas" );
+  var myCanvas = new layeredCanvas( "theCanvas" );
 
   myCanvas.addLayer( {
     id: 'background',
@@ -71,4 +69,3 @@ window.onload = function () {
   });
 
   myCanvas.render();
-}

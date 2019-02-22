@@ -1,5 +1,5 @@
 
-	LayeredCanvas = function ( id ) {
+	layeredCanvas = function ( id ) {
 		this.layers = [];
 
 		var extend = function ( defaults, options ) {
@@ -67,5 +67,4 @@
 		this.ctx2d = this.canvas.getContext( '2d' );
 	};
 
-
-module.exports = LayeredCanvas
+module.exports.layeredCanvas = layerdCanvas
